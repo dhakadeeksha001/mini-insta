@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("soft-blue-background.jpg");
+    background-size: cover;
+}
+
+form{
+    margin-top: 50px;
+    text-align: center;
+    border: solid black;
+    border-radius: 15px;
+}
+
+input{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+    outline: none;
+    border: solid slategray;
+    border-radius: 18px;
+    font-size: 20px;
+    background: transparent;
+    text-align: center;
+    background-color: bisque;
+}
+
+button{
+    width: 160px;
+    height: 50px;
+    font-size: 150%;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 650;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+form h1{
+    margin-bottom: 25px;
+    font-size: 250%;
+    color: black;
+}
+
+#heading{
+    font-size: 80px;
+    margin-bottom: 1px;
+    margin-top: 25px;
+}
+
+button:hover{
+    background-color: rgb(47, 116, 243);
+}
+
+#signinlink{
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+}
