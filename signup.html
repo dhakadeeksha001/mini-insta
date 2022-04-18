@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,20 +9,22 @@
     <link rel="icon" type="image/x-icon" href="assets\Screenshot (5).png">
     <link rel="stylesheet" href="signup.css">
 </head>
+
 <body>
-       <h1 id="heading">Mini Insta</h1>
+    <h1 id="heading">Mini Insta</h1>
 
-   <form>
-       <h1>Sign Up</h1>
-       <input type="text" name="" placeholder="Username" required>
-       <input type="email" name="" placeholder="Email" required>
-       <input type="password" name="" placeholder="Password" required>
-       <input type="password" name="" placeholder="Confirm Password" required>
-       <button type="submit" onclick="signup()">SignUp</button>
-   </form> 
-    <p id="signinlink">Already a member?<a id="btnSignIn" href="index.html" class="signinbtn" > Sign In</a></p>
+    <form id="SIGNUP">
+        <h1>Sign Up</h1>
+        <input type="text" name="" placeholder="Username" required>
+        <input type="email" name="" placeholder="Email" id="email" required>
+        <input type="password" name="" placeholder="Password" id="psw" required>
+        <input type="password" name="" placeholder="Confirm Password" id="confirmpsw" required>
+        <button type="submit" id="btnsignUp">SignUp</button>
+    </form>
+    <p id="signinlink">Already a member?<a id="btnSignIn" href="signin.html" class="signinbtn"> Sign In</a></p>
 
-   <script type="module" src="firebase.js"></script>
-   <!-- <script type="module" src="signup.js"></script> -->
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="signup.js"></script>
 </body>
+
 </html>

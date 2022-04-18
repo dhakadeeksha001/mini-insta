@@ -1,0 +1,23 @@
+#likebtn {
+    margin: 5px;
+    border: none;
+    border-radius: 50px;
+    background-color: blue;
+    font-size: 20px;
+}
+
+#sharebtn {
+    margin: 5px;
+    border: none;
+    border-radius: 50px;
+    background-color: darkorchid;
+    font-size: 20px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
