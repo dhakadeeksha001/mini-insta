@@ -9,13 +9,13 @@ const auth = getAuth();
 function signin() {
     const email = document.getElementById("email").value
     const password = document.getElementById("password").value
-    console.log(email, password)
+    // console.log(email, password)
 
     signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             // Signed in 
             const user = userCredential.user;
-            console.log(user)
+            // console.log(user)
             // ...
         })
         .catch((error) => {

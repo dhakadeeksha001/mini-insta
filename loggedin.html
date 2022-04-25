@@ -16,7 +16,7 @@
 
 <body>
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container justify-content-center">
                 <div id="user-email"></div>
                 <div class="d-flex flex-row justify-content-between align-items-center col-9">
@@ -54,6 +54,8 @@
                     </div>
                 </div>
             </div>
+            <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Upload Image" class="button"
+                id="add-button">Upload</a>
         </nav>
         <div class="d-flex image-container" id="result">
 
@@ -62,8 +64,6 @@
 
     </div>
 
-    <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Upload Image" class="button"
-        id="add-button">+</a>
 
     <div class="popup">
         <div class="popup-content">

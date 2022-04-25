@@ -11,6 +11,7 @@ body{
     height: 100vh;
     background-image: url("soft-blue-background.jpg");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 form{

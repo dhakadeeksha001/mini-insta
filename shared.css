@@ -21,3 +21,92 @@
     padding: 2rem;
     flex-wrap: wrap;
 }
+
+.popup {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.popup-content {
+    height: 300px;
+    width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.form-group {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    padding: 8px;
+}
+
+/* form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 10px;
+} */
+
+.signinbtn {
+    display: grid;
+    width: 140px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: aqua;
+    font-weight: 650;
+    font-size: 150%;
+    margin-left: 95px;
+    margin-right: 110px;
+    transition: all 0.5s;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.input-field input {
+    background: none;
+    outline: none;
+    border: solid grey;
+    border-radius: 10px;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 100%;
+    color: black;
+    text-align: center;
+    height: 45px;
+    width: 300px;
+}
+
+.title {
+    font-size: 350%;
+    color: black;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+#password{
+    margin-top: 10px;
+}

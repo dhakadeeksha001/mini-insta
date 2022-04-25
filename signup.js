@@ -10,13 +10,13 @@ function signup() {
   const email = document.getElementById("email").value
   const password = document.getElementById("psw").value
   const confirmPassword = document.getElementById("confirmpsw").value
-  console.log(email, password, confirmPassword)
+  // console.log(email, password, confirmPassword)
   if (password === confirmPassword) {
     createUserWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
-        console.log("created");
+        // console.log("created");
         // ...
       })
       .catch((error) => {
@@ -38,7 +38,7 @@ document.getElementById("btnsignUp").addEventListener('click', signup);
 
 onAuthStateChanged(auth, (user) => {
   if (user) {
-    console.log(user)
+    // console.log(user)
     const uid = user.uid;
     window.location.href = "http://127.0.0.1:5500/loggedin.html"
     // ...

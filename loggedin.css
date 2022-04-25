@@ -2,6 +2,8 @@ body {
     background-image: url("soft-blue-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 #btnSignOut {
@@ -44,16 +46,16 @@ body {
 
 .button {
     background-color: lawngreen;
-    padding: 8px 8px;
+    padding: 5px 5px;
     color: black;
     font-weight: 600;
     text-decoration: none;
     font-size: 120%;
-    border-radius: 50%;
+    border-radius: 15%;
     transition: 0.4s;
     position: absolute;
     left: 78%;
-    top: 18px;
+    top: 24px;
 }
 
 .button:hover {

@@ -19,6 +19,7 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container justify-content-center">
+                <div id="user-email"></div>
                 <div class="d-flex flex-row justify-content-between align-items-center col-9">
                     <a class="navbar-brand" href="#">
                         <img src="assets\written logo.png">
@@ -57,6 +58,27 @@
 
         <div class="d-flex image-container" id="sharedimage">
 
+        </div>
+
+        <div class="popup">
+            <div class="popup-content">
+                <img src="assets\cross.png" alt="close" class="close">
+                <div class="uploadingform" id="form">
+                    <form class="form" id="signinform">
+                        <h2 class="title">Sign In</h2>
+                        <div class="input-field">
+                            <input id="email" type="text" placeholder="Email ID" />
+                        </div>
+                        <div class="input-field">
+                            <input id="password" type="password" placeholder="Password" />
+                        </div>
+                        <div class="btn">
+                            <input id="btnSignIn" type="submit" class="signinbtn" value="Sign In" />
+                        </div>
+
+                    </form>
+                </div>
+            </div>
         </div>
 
         <script type="module" src="firebase.js"></script>
